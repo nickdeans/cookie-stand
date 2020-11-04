@@ -21,32 +21,32 @@ var seattle = new Cities('Seattle', 23, 65, 6.3, 0, [], [])
 var tokyo = new Cities('Tokyo', 3, 24, 1.2, 0, [], [])
 var dubai = new Cities('Dubai', 11, 38, 3.7, 0, [], [])
 var paris = new Cities('Paris', 20, 38, 2.3, 0, [], [])
-var lima = new Cities('Lima', 2, 16, 4.6, 0, [], []
+var lima = new Cities('Lima', 2, 16, 4.6, 0, [], [])
 
-function generateHeader(){
-    var trElement = document.createElement('tr');
-    var thElement = document.createElement('th');
-    thElement.textContent = 'City';
-    tbodyParent.appendChild(trElement);
-    trElement.appendChild(thElement);
+// function generateHeader(){
+//     var trElement = document.createElement('tr');
+//     var thElement = document.createElement('th');
+//     thElement.textContent = 'City';
+//     tbodyParent.appendChild(trElement);
+//     trElement.appendChild(thElement);
 
-    thElement = document.createElement('th');
-    thElement.textContent = 'Minimum Customers';
-    trElement.appendChild(thElement);
+//     thElement = document.createElement('th');
+//     thElement.textContent = 'Minimum Customers';
+//     trElement.appendChild(thElement);
 
-    thElement = document.createElement('th');
-    thElement.textContent = 'Maximum Customers';
-    trElement.appendChild(thElement);
+//     thElement = document.createElement('th');
+//     thElement.textContent = 'Maximum Customers';
+//     trElement.appendChild(thElement);
 
-    thElement = document.createElement('th');
-    thElement.textContent = 'Average Cookies';
-    trElement.appendChild(thElement);
-    for(var i=0; i<allCities.length; i++){
-        allCities[i].render();
-    }
-}
+//     thElement = document.createElement('th');
+//     thElement.textContent = 'Average Cookies';
+//     trElement.appendChild(thElement);
+//     for(var i=0; i<allCities.length; i++){
+//         allCities[i].render();
+//     }
+// }
 
-generateHeader();
+// generateHeader();
 
 
 Cities.prototype.generateCustomersHourly = function(){
@@ -173,6 +173,6 @@ function generateRandomNumber(min, max) {
   }
 
 
-// seattle.generateCustomersHourly();
-// seattle.generateCookiesSoldHourly();
-// seattle.render();
+seattle.generateCustomersHourly();
+seattle.generateCookiesSoldHourly();
+seattle.render();
