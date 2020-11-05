@@ -1,5 +1,5 @@
 #background-header {
-    background-image: url(/imgs/Salmon7.png), url(/imgs/Background.jpeg);
+    background-image: url(/imgs/salmon7.png), url(/imgs/background.jpeg);
     background-repeat: no-repeat, repeat;
     background-position: center, center;
     height: 300px;
@@ -61,3 +61,5 @@ h3 {
     font-size: 20px;
     padding: 5px;
 }
+
+/
