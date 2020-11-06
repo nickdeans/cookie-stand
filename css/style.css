@@ -28,16 +28,17 @@ nav {
     background-color: #AED3E8;
     text-align: center;
     padding: 10px;
-    border: #7E8091 solid 10px;
+    border: #AD755F solid 10px;
 }
 
 p1 {
     height: 200px;
-    background-color: #8E92BD;
+    background-color: rgb(142, 146, 189, 0.8);
     text-align: left;
     float: left;
     margin-right: 30%;
     padding: 10px;
+    
 }
 
 h2 {
@@ -50,12 +51,11 @@ h2 {
 
 #locations {
     position: absolute;
-    /* background-position: right; */
     background-color: #AD755F;
     top: 450px;
     left: 80%;
     width: 15%;
-    height: 900px;
+    height: 700px;
     text-align: center;
 }
 
@@ -66,9 +66,34 @@ h3 {
 }
 
 #sales-background {
-    background-image: url('../img/salmontest.jpeg');
+    background-image: url(../img/salmontest.jpeg);
+    background-repeat: repeat-y;
     background-position: right;
     background-size: 30%;
-    background-repeat: repeat-y;
     padding: 200px;
+}
+
+#headerr {
+    text-align: left;
+    color: black;
+}
+
+body {
+    background-color: #7E8091;
+}
+
+table {
+    border: 3px solid blue;
+    padding: 1em;
+    margin: 1em;
+}
+
+#paragraph2 {
+    height: 250px;
+    background-color: rgb(142, 146, 189, 0.8);
+    text-align: left;
+    float: left;
+    margin-right: 30%;
+    padding: 10px;
+    
 }
