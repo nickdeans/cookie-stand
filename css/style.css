@@ -12,8 +12,10 @@ h1 {
 }
 
 #body-background {
-    background-image: url('../img/background2.jpeg');
-    background-position: left;
+    background-image: url('../img/salmonbackground.jpeg');
+    background-position: center;
+    background-size: 1200px;
+    background-repeat: repeat-y;
 }
 
 #center {
@@ -35,7 +37,7 @@ p1 {
     text-align: left;
     float: left;
     margin-right: 30%;
-    padding: 5px;
+    padding: 10px;
 }
 
 h2 {
@@ -48,11 +50,12 @@ h2 {
 
 #locations {
     position: absolute;
+    /* background-position: right; */
     background-color: #AD755F;
-    top: 50%;
+    top: 450px;
     left: 80%;
     width: 15%;
-    height: 150%;
+    height: 900px;
     text-align: center;
 }
 
@@ -60,4 +63,12 @@ h3 {
     display: inline-block;
     font-size: 20px;
     padding: 5px;
+}
+
+#sales-background {
+    background-image: url('../img/salmontest.jpeg');
+    background-position: right;
+    background-size: 30%;
+    background-repeat: repeat-y;
+    padding: 200px;
 }

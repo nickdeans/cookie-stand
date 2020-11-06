@@ -120,4 +120,3 @@ for(var i=0; i<allCities.length; i++){
 }
 
 generateFooterRow();
-

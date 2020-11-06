@@ -5,12 +5,27 @@
     </head>
     <body>
         <header>
-            <h1>Sales</h1>
+            <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/style.css">
+            <h1>Location Cookie Sales</h1>
         </header>
-        <body>
-            <section></section>
-            <ul>
-            </ul>
+        <body id="sales-background">
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Input new location Data</legend>
+                        <label for="location">City</label>
+                        <input type="text" name="location" id="">
+                        <label for="minCustomer">Minimum Customers:</label>
+                        <input type="text" name="minCustomer" id="">
+                        <label for = "maxCustomer">Maximum Customers</label>
+                        <input type = "text" name = "maxCustomer">
+                        <label for = "avgCookie">Average Cookie Sold/Hour:</label>
+                        <input type = "text" name = "avgCookie">
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
+            </section>
             <table>
                 <tbody id="table"></tbody>
             </table>
