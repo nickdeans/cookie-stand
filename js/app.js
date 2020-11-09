@@ -111,6 +111,27 @@ function generateFooterRow(){
     trElement.appendChild(tdElement)
 }
 
+var formElement = document.getElementById('form');
+formElement.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = e.target.name.value;
+    var minCustomer = parseInt(e.target.minCustomer.value);
+    var maxCustomer = parseInt(e.target.maxCustomer.value);
+    var avgCookies = parseInt(e.target.avgCookies.value);
+
+    formElement.reset();
+
+    new Cities(name, minCustomer, maxCustomer, avgCookies);
+    document.getElementById('table').innerHTML = '';
+    generateHeaderRow();
+    for(var i=0; i<allCities.length; i++){
+        allCities[i].generateCustomersHourly();
+        allCities[i].generateCookiesHourly();
+        allCities[i].render();
+    }
+    generateFooterRow();
+});
+
 
 generateHeaderRow();
 for(var i=0; i<allCities.length; i++){

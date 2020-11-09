@@ -9,6 +9,8 @@ h1 {
     text-align: center;
     font-size: 1.75cm;
     line-height: 500%;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: #8E92BD 5px 5px;
 }
 
 #body-background {
@@ -29,6 +31,7 @@ nav {
     text-align: center;
     padding: 10px;
     border: #AD755F solid 10px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 p1 {
@@ -38,7 +41,7 @@ p1 {
     float: left;
     margin-right: 30%;
     padding: 10px;
-    
+    font-family: 'Gentium Book Basic', serif;
 }
 
 h2 {
@@ -47,6 +50,7 @@ h2 {
     padding: 5px;
     background-size: cover;
     margin: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 #locations {
@@ -57,6 +61,7 @@ h2 {
     width: 15%;
     height: 700px;
     text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 h3 {
@@ -76,6 +81,8 @@ h3 {
 #headerr {
     text-align: left;
     color: black;
+    text-shadow: #AED3E8 5px 5px;
+
 }
 
 body {
@@ -83,9 +90,11 @@ body {
 }
 
 table {
-    border: 3px solid blue;
-    padding: 1em;
+    border: 2px solid black;
+    padding: 30px;
     margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
 }
 
 #paragraph2 {
@@ -96,4 +105,25 @@ table {
     margin-right: 30%;
     padding: 10px;
     
+}
+
+p {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+tbody {
+    border: 2px black solid;
+    padding: 30px;
+    color: #8E92BD;
+    text-shadow: black 1px 1px;
+    width: 50%;
+}
+
+#tablecss {
+    border: 2px black solid;
+    padding: 15px;
+    color: #E96400;
+    text-shadow: black 1px 1px;
+    width: 50%;
+}
 }
